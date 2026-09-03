@@ -176,6 +176,24 @@ button:hover {
   background-color: #3949ab;
 }
 
+.activity-card .delete-participant {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+  padding: 4px 8px;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  border-radius: 5px;
+  color: #be123c;
+  font-size: 1.1rem;
+}
+
+.activity-card .delete-participant:hover {
+  background: #ffe4e6;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
